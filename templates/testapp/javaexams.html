@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% extends 'testapp/base.html' %}
+ {% block body_block%}
+ <ul>
+  <li>
+    <h3>Which of the following option leads to the portability and security of Java?</h3>
+    <input type="radio" name="question0" value="A">Bytecode is executed by JVM<br>
+    <input type="radio" name="question0" value="B">The applet makes the Java code secure and portable<br>
+    <input type="radio" name="question0" value="C">Use of exception handling<br>
+    <input type="radio" name="question0" value="D">Dynamic binding between objects<br>
+  </li>
+  <li>
+    <h3>Which of the following is not a Java features?</h3>
+    <input type="radio" name="question1" value="A">Dynamic<br>
+    <input type="radio" name="question1" value="B">Architecture Neutral<br>
+    <input type="radio" name="question1" value="C">Use of pointers<br>
+    <input type="radio" name="question1" value="D">Object-oriented<br>
+  </li>
+  <li>
+    <h3>Evaluate the following Java expression, if x=3, y=5, and z=10:  ++z + y - y + z + x++</h3>
+    <input type="radio" name="question2" value="A">24<br>
+    <input type="radio" name="question2" value="B">23<br>
+    <input type="radio" name="question2" value="C">20<br>
+    <input type="radio" name="question2" value="D">25<br>
+  </li>
+</ul>
+
+<button type="submit">submit</button>
+ {% endblock %}
